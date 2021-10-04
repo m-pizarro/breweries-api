@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./**/*.ts",
+    "src/index.ts.old",
+    "src/routes/auth.routes.ts.old"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ],
+}
